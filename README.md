@@ -6,7 +6,7 @@ tudo versionado com **Git** e publicado com **GitHub Pages**.
 
 ## 🌐 Página do projeto
 
-**[https://SEU-USUARIO.github.io/TARF_Study_Hub_TI/](https://github.com/thiiagofreiitas/TARF_Study_Hub_TI/)**
+**[https://github.com/thiiagofreiitas/TARF_Study_Hub_TI/](https://github.com/thiiagofreiitas/TARF_Study_Hub_TI/)**
 
 ## 🎯 Objetivo
 
