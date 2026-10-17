@@ -6,7 +6,7 @@ tudo versionado com **Git** e publicado com **GitHub Pages**.
 
 ## 🌐 Página do projeto
 
-**[https://SEU-USUARIO.github.io/TARF_Study_Hub_TI/](https://SEU-USUARIO.github.io/TARF_Study_Hub_TI/)**
+**[https://SEU-USUARIO.github.io/TARF_Study_Hub_TI/](https://github.com/thiiagofreiitas/TARF_Study_Hub_TI/)**
 
 ## 🎯 Objetivo
 
@@ -59,4 +59,4 @@ Git · GitHub · GitHub Pages · HTML · CSS · Python (PyCharm)
 ## 👤 Autor
 
 **SEU NOME**, estudante de ADS
-[LinkedIn](https://www.linkedin.com/in/SEU-PERFIL/) · [GitHub](https://github.com/SEU-USUARIO)
+[LinkedIn](https://www.linkedin.com/in/thiiagofreiitas/) · [GitHub](https://github.com/thiiagofreiitas)
