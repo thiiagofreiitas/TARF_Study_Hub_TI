@@ -1,0 +1,120 @@
+:root {
+  --fundo: #0a1a33;
+  --fundo-2: #10264a;
+  --linha: #1f3a66;
+  --texto: #e6eefb;
+  --texto-suave: #9db3d6;
+  --destaque: #4cc2ff;
+  --destaque-2: #ffc857;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a { color: var(--destaque); }
+a:hover { color: var(--destaque-2); }
+a:focus-visible {
+  outline: 2px solid var(--destaque-2);
+  outline-offset: 3px;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- topo ---------- */
+.topo { padding: 64px 0 24px; }
+
+.topo h1 {
+  margin: 0 0 12px;
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: clamp(1.6rem, 5vw, 3rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+}
+
+.topo p {
+  margin: 0;
+  max-width: 60ch;
+  color: var(--texto-suave);
+  font-size: 1.1rem;
+}
+
+/* ---------- árvore de pastas ---------- */
+.arvore-bloco { padding: 24px 0 8px; }
+
+.arvore {
+  margin: 0;
+  padding: 28px 24px;
+  overflow-x: auto;
+  background: var(--fundo-2);
+  border: 1px solid var(--linha);
+  border-radius: 6px;
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--texto-suave);
+}
+
+.arvore .raiz { color: var(--texto); font-weight: 600; }
+.arvore a { text-decoration: none; }
+.arvore a:hover { text-decoration: underline; }
+
+/* ---------- seções ---------- */
+section { padding: 40px 0 8px; }
+
+h2 {
+  margin: 0 0 16px;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+}
+
+section p { max-width: 68ch; }
+
+/* ---------- tabela ---------- */
+.tabela-rolagem { overflow-x: auto; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 620px;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--linha);
+}
+
+th { color: var(--destaque); font-weight: 600; }
+td:first-child { white-space: nowrap; color: var(--texto-suave); }
+
+/* ---------- rodapé ---------- */
+footer {
+  margin-top: 56px;
+  padding: 28px 0 40px;
+  border-top: 1px solid var(--linha);
+  color: var(--texto-suave);
+  font-size: 0.9rem;
+}
+
+footer p { margin: 4px 0; }
+
+@media (max-width: 520px) {
+  .topo { padding-top: 40px; }
+  .arvore { font-size: 0.82rem; padding: 20px 14px; }
+}

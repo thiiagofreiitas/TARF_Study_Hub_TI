@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TARF Study Hub TI</title>
+  <meta name="description" content="Hub de estudos de TI: disciplinas, projetos e certificados do curso de Análise e Desenvolvimento de Sistemas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container">
+      <h1>TARF_Study_Hub_TI</h1>
+      <p>Meu hub de estudos em Análise e Desenvolvimento de Sistemas: disciplinas do 1º semestre, atividades, projetos e certificados, versionados com Git.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <div class="arvore-bloco">
+        <pre class="arvore" aria-label="Estrutura de pastas do repositório"><span class="raiz">TARF_Study_Hub_TI</span>
+├── <a data-path="01_Apresentacao_e_Perfil" href="01_Apresentacao_e_Perfil/">01_Apresentacao_e_Perfil</a>
+│   └── <a data-path="01_Apresentacao_e_Perfil/Apresentacao_Pessoal" href="01_Apresentacao_e_Perfil/Apresentacao_Pessoal/">Apresentacao_Pessoal</a>
+├── <a data-path="02_Disciplinas_1s" href="02_Disciplinas_1s/">02_Disciplinas_1s</a>
+│   ├── <a data-path="02_Disciplinas_1s/INTRODUCAO_A_COMPUTACAO" href="02_Disciplinas_1s/INTRODUCAO_A_COMPUTACAO/">INTRODUCAO_A_COMPUTACAO</a>
+│   ├── <a data-path="02_Disciplinas_1s/ENGENHARIA_DE_SOFTWARE" href="02_Disciplinas_1s/ENGENHARIA_DE_SOFTWARE/">ENGENHARIA_DE_SOFTWARE</a>
+│   ├── <a data-path="02_Disciplinas_1s/LOGICA_DE_PROGRAMACAO" href="02_Disciplinas_1s/LOGICA_DE_PROGRAMACAO/">LOGICA_DE_PROGRAMACAO</a>
+│   └── <a data-path="02_Disciplinas_1s/BOOTCAMP_I" href="02_Disciplinas_1s/BOOTCAMP_I/">BOOTCAMP_I</a>
+│       ├── <a data-path="02_Disciplinas_1s/BOOTCAMP_I/Atividades_e_Entregas" href="02_Disciplinas_1s/BOOTCAMP_I/Atividades_e_Entregas/">Atividades_e_Entregas</a>
+│       └── <a data-path="02_Disciplinas_1s/BOOTCAMP_I/Anotacoes_e_Resumos" href="02_Disciplinas_1s/BOOTCAMP_I/Anotacoes_e_Resumos/">Anotacoes_e_Resumos</a>
+└── <a data-path="03_Projetos_e_Certificados" href="03_Projetos_e_Certificados/">03_Projetos_e_Certificados</a></pre>
+      </div>
+
+      <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Sou SEU NOME, estudante de ADS. Aprendo programação na prática, com exercícios em Python, e uso este repositório para organizar o que estudo e mostrar minha evolução.</p>
+      </section>
+
+      <section id="disciplinas">
+        <h2>Disciplinas do 1º semestre</h2>
+        <div class="tabela-rolagem">
+          <table>
+            <thead>
+              <tr>
+                <th>Disciplina</th>
+                <th>Tipo de material</th>
+                <th>Por que está aqui</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Engenharia de Software</td>
+                <td>Requisitos, modelagem, documentação e metodologias de desenvolvimento</td>
+                <td>Organiza o processo de criação de sistemas, para desenvolver projetos de forma estruturada, profissional e com qualidade.</td>
+              </tr>
+              <tr>
+                <td>Introdução à Computação</td>
+                <td>Fundamentos da computação, sistemas, hardware, software e tecnologia</td>
+                <td>Apresenta os conceitos essenciais e cria a base para as demais disciplinas.</td>
+              </tr>
+              <tr>
+                <td>Lógica de Programação</td>
+                <td>Algoritmos, estruturas condicionais, estruturas de repetição e resolução de problemas</td>
+                <td>Desenvolve o raciocínio lógico necessário para criar algoritmos e compreender a programação.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="repositorio">
+        <h2>Código-fonte</h2>
+        <p>Todo o conteúdo está no GitHub, com histórico de commits e versões. <a id="link-repo" href="https://github.com/SEU-USUARIO/TARF_Study_Hub_TI">Abrir o repositório</a>.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 SEU NOME · Versão 1.0</p>
+      <p><a href="https://www.linkedin.com/in/SEU-PERFIL/">LinkedIn</a> · <a href="https://github.com/SEU-USUARIO">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script>
+    /* No GitHub Pages, as pastas viram links para o repositório (onde o README.md é exibido).
+       Abrindo o arquivo no computador, os links relativos continuam funcionando. */
+    (function () {
+      var host = window.location.hostname;
+      if (!host.endsWith(".github.io")) return;
+      var usuario = host.split(".")[0];
+      var repo = window.location.pathname.split("/")[1];
+      if (!repo) return;
+      var base = "https://github.com/" + usuario + "/" + repo;
+      document.querySelectorAll("a[data-path]").forEach(function (a) {
+        a.href = base + "/tree/main/" + a.getAttribute("data-path");
+      });
+      var link = document.getElementById("link-repo");
+      if (link) link.href = base;
+    })();
+  </script>
+</body>
+</html>
