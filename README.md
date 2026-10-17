@@ -58,5 +58,5 @@ Git · GitHub · GitHub Pages · HTML · CSS · Python (PyCharm)
 
 ## 👤 Autor
 
-**SEU NOME**, estudante de ADS
+**THIAGO FREITAS**, estudante de ADS
 [LinkedIn](https://www.linkedin.com/in/thiiagofreiitas/) · [GitHub](https://github.com/thiiagofreiitas)
