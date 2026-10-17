@@ -1,0 +1,51 @@
+# Introdução à Computação
+
+Base para entender as demais disciplinas e o funcionamento da área de TI.
+
+## Conteúdo
+
+- Fundamentos da computação
+- Sistemas computacionais
+- Hardware e software
+- Tecnologia e seu impacto
+
+## Arquivos
+
+| Arquivo | Descrição |
+|---------|-----------|
+| [resumo_fundamentos.md](resumo_fundamentos.md) | Resumo dos conceitos básicos |
+
+# Resumo: fundamentos da computação
+
+> Resumo inicial. Complemente com as anotações das suas aulas.
+
+## Hardware e software
+
+- **Hardware:** parte física do computador (processador, memória, disco, placa-mãe).
+- **Software:** programas e instruções que fazem o hardware funcionar.
+  - *Software de sistema:* sistema operacional (Windows, Linux, macOS).
+  - *Software de aplicação:* navegador, editor de texto, jogos.
+
+## Como um computador funciona (visão geral)
+
+1. **Entrada:** teclado, mouse, microfone
+2. **Processamento:** a CPU executa as instruções
+3. **Armazenamento:** memória RAM (temporária) e disco (permanente)
+4. **Saída:** monitor, caixas de som, impressora
+
+## Sistema binário
+
+Computadores trabalham com **0 e 1** (bits). Um grupo de 8 bits forma 1 **byte**.
+
+| Decimal | Binário |
+|---------|---------|
+| 1 | 1 |
+| 2 | 10 |
+| 5 | 101 |
+| 10 | 1010 |
+
+## Para revisar
+
+- [ ] Diferença entre RAM e armazenamento
+- [ ] O que faz um sistema operacional
+- [ ] Conversão de decimal para binário
