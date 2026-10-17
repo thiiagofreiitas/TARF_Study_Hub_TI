@@ -1,0 +1,23 @@
+# 03 - Projetos e Certificados
+
+Projetos desenvolvidos durante o curso e certificados conquistados.
+
+## Projetos
+
+| Projeto | Descrição | Tecnologias | Status |
+|---------|-----------|-------------|--------|
+| TARF Study Hub TI | Este repositório e sua página no GitHub Pages | Git, GitHub, HTML, CSS | Em andamento |
+| (adicione novos projetos aqui) | | | |
+
+## Certificados
+
+| Certificado | Instituição | Ano |
+|-------------|-------------|-----|
+| (adicione seus certificados aqui) | | |
+
+## Como adicionar um projeto novo
+
+1. Crie uma pasta com o nome do projeto
+2. Crie um `README.md` dentro dela explicando o que é, como executar e quais tecnologias usa
+3. Adicione uma linha na tabela acima
+4. Faça o commit e o push
