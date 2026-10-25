@@ -1,6 +1,6 @@
 # Política de Segurança – PortfolioHUB
 
-Este documento descreve as práticas de segurança adotadas no **PortfolioHUB** (`TARF_Study_Hub_TI`), repositório de portfólio acadêmico de [SEU NOME], estudante de Análise e Desenvolvimento de Sistemas (ADS).
+Este documento descreve as práticas de segurança adotadas no **PortfolioHUB** (`TARF_Study_Hub_TI`), repositório de portfólio acadêmico de THIAGO FREITAS, estudante de Análise e Desenvolvimento de Sistemas (ADS).
 
 ## 1. Escopo
 
@@ -19,7 +19,7 @@ Se você encontrar algum problema de segurança (por exemplo, dado sensível exp
 
 1. **Não divulgue publicamente** o problema antes de ele ser corrigido.
 2. Entre em contato por um destes canais:
-   - E-mail: [SEU E-MAIL]
+   - E-mail: thiiagofreiitas@icloud.com
    - GitHub: aba **Security → Report a vulnerability**, se estiver habilitada
 3. Informe na mensagem:
    - descrição do problema;
@@ -103,10 +103,10 @@ O Google Gemini é usado como apoio para revisar boas práticas e planejar a imp
 
 ## 9. Contato
 
-- **Responsável:** [SEU NOME]
-- **E-mail:** [SEU E-MAIL]
-- **GitHub:** [SEU USUÁRIO]
-- **LinkedIn:** [SEU LINKEDIN]
+- **Responsável:** Thiago Freitas
+- **E-mail:** thiiagofreiitas@sempreceub.com
+- **GitHub:** thiiagofreiitas
+- **LinkedIn:** thiiagofreiitas
 
 ---
 
