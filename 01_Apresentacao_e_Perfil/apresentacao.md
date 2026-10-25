@@ -1,4 +1,4 @@
-# Olá, eu sou SEU NOME 👋
+# Olá, eu sou Thiago Freitas 👋
 
 ## Quem sou
 
@@ -27,6 +27,6 @@ o que te levou à TI e o que você faz hoje.)
 
 ## Contato
 
-- LinkedIn: https://www.linkedin.com/in/SEU-PERFIL/
-- GitHub: https://github.com/SEU-USUARIO
-- E-mail: seuemail@exemplo.com
+- LinkedIn: https://www.linkedin.com/in/thiiagofreiitas/
+- GitHub: https://github.com/thiiagofreiitas
+- E-mail: thiiagofreiitas@icloud.com
