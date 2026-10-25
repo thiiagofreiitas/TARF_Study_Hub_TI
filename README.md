@@ -50,7 +50,7 @@ TARF_Study_Hub_TI
 
 ## 🏷️ Versões
 
-O histórico completo está no [CHANGELOG](CHANGELOG.md). Versão atual: **v1.0**.
+O histórico completo está no [CHANGELOG](CHANGELOG.md). Versão atual: **v1.01**.
 
 ## 🛠️ Tecnologias
 
