@@ -19,7 +19,7 @@ Se você encontrar algum problema de segurança (por exemplo, dado sensível exp
 
 1. **Não divulgue publicamente** o problema antes de ele ser corrigido.
 2. Entre em contato por um destes canais:
-   - E-mail: thiiagofreiitas@icloud.com
+   - E-mail: thiiagofreiitas@sempreceub.com
    - GitHub: aba **Security → Report a vulnerability**, se estiver habilitada
 3. Informe na mensagem:
    - descrição do problema;
