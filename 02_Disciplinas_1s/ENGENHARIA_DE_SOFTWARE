@@ -1,1 +1,34 @@
 
+# Resumo: Engenharia de Software
+
+> Resumo inicial. Complemente com as anotações das suas aulas.
+
+## O que é
+
+Aplicação de métodos organizados para **planejar, construir, testar e manter** software com qualidade.
+
+## Requisitos
+
+| Tipo | O que descreve | Exemplo |
+|------|----------------|---------|
+| Funcional | O que o sistema **faz** | "O usuário deve poder cadastrar um compromisso" |
+| Não funcional | **Como** o sistema se comporta | "A tela deve carregar em até 3 segundos" |
+
+## Ciclo de vida (visão geral)
+
+1. Levantamento de requisitos
+2. Análise e modelagem
+3. Desenvolvimento
+4. Testes
+5. Entrega e manutenção
+
+## Metodologias
+
+- **Cascata:** etapas em sequência; uma termina para a outra começar.
+- **Ágil (Scrum):** entregas curtas (sprints), feedback constante e adaptação.
+
+## Para revisar
+
+- [ ] Diferença entre requisito funcional e não funcional
+- [ ] Papéis do Scrum (Product Owner, Scrum Master, equipe)
+- [ ] O que é uma EAP (Estrutura Analítica do Projeto)
