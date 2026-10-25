@@ -10,7 +10,7 @@ o que te levou à TI e o que você faz hoje.)
 
 - Curso: Análise e Desenvolvimento de Sistemas (ADS)
 - Semestre atual: 1º semestre
-- Instituição: NOME DA INSTITUIÇÃO
+- Instituição: CEUB
 
 ## O que estou aprendendo
 
