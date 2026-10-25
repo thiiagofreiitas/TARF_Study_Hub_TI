@@ -29,4 +29,4 @@ o que te levou à TI e o que você faz hoje.)
 
 - LinkedIn: https://www.linkedin.com/in/thiiagofreiitas/
 - GitHub: https://github.com/thiiagofreiitas
-- E-mail: thiiagofreiitas@icloud.com
+- E-mail: thiiagofreiitas@sempreceub.com
