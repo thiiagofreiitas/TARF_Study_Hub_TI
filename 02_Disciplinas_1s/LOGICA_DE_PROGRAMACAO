@@ -1,1 +1,29 @@
 
+# Lógica de Programação
+
+Desenvolve o raciocínio lógico necessário para criar algoritmos e compreender a programação.
+
+## Conteúdo
+
+- Algoritmos
+- Estruturas condicionais (`if`, `elif`, `else`)
+- Estruturas de repetição (`for`, `while`)
+- Resolução de problemas
+
+## Linguagem
+
+Python, usando o PyCharm.
+
+## Exercícios
+
+| Arquivo | Assunto |
+|---------|---------|
+| [exercicio_01_par_ou_impar.py](exercicio_01_par_ou_impar.py) | Condicional |
+| [exercicio_02_tabuada.py](exercicio_02_tabuada.py) | Repetição |
+| [exercicio_03_media_notas.py](exercicio_03_media_notas.py) | Condicional + cálculo |
+
+## Como executar
+
+```bash
+python exercicio_01_par_ou_impar.py
+```
