@@ -8,6 +8,10 @@ tudo versionado com **Git** e publicado com **GitHub Pages**.
 
 **[https://github.com/thiiagofreiitas/TARF_Study_Hub_TI/](https://github.com/thiiagofreiitas/TARF_Study_Hub_TI/)**
 
+## 🌐 Página do projeto online
+
+**[https://github.com/thiiagofreiitas/TARF_Study_Hub_TI/](https://thiiagofreiitas.github.io/TARF_Study_Hub_TI/)**
+
 ## 🎯 Objetivo
 
 - Organizar meus estudos de TI em um só lugar
